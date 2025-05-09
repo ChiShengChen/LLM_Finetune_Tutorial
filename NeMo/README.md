@@ -160,5 +160,3 @@ LLM_tutorial/
 *   **配置文件**: OmegaConf 用於管理配置。如果遇到 `ConfigAttributeError` (如 `Key '...' is not in struct`)，通常表示模型配置的結構或內容與預期不符。檢查 `.nemo` 模型內部配置和您的覆蓋配置是否正確。
 *   **Apex 和 Transformer Engine**: 這些庫通常需要針對您的特定 CUDA 版本進行編譯才能獲得最佳性能和兼容性。如果 `pip install` 版本不起作用，請嘗試從源碼編譯。
 *   **NeMo 版本**: NeMo API 在不同版本之間可能存在差異。本教程中的 `nemo_2_example.py` 試圖處理 NeMo 1.x 和 2.x 的一些差異，但主要針對較新版本進行測試。
-
-祝您在大型語言模型的微調之路上一切順利！ 
